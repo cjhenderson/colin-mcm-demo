@@ -1,0 +1,209 @@
+{
+  "input_datatypes": [ ],
+  "input_namespaces": [ ],
+  "output_namespace": "",
+  "input_groups": [
+    {
+      "name": "Instances-azurerm_linux_virtual_machine.TestVM",
+      "label": "Instances - azurerm_linux_virtual_machine.TestVM"
+    },
+    {
+      "name": "Other",
+      "label": "Other"
+    },
+    {
+      "name": "instances",
+      "label": "Instances"
+    },
+    {
+      "name": "azurerm_resource_group_resource_group",
+      "label": "azurerm_resource_group Resource Group"
+    }
+  ],
+  "output_groups": [ ],
+  "template_input_params": [
+    {
+      "name": "TestVM_name",
+      "label": "Test Vm Name",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "regex": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "vm_location",
+      "label": "Vm Location",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "regex": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "vm_size",
+      "label": "Vm Size",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "regex": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "TestVM_azure_user",
+      "label": "Test Vm Azure User",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "regex": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "TestVM_azure_user_password",
+      "label": "Test Vm Azure User Password",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "regex": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "TestVM_publisher",
+      "label": "Test Vm Publisher",
+      "description": "null",
+      "type": "string",
+      "default": "Canonical",
+      "regex": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "TestVM_offer",
+      "label": "Test Vm Offer",
+      "description": "null",
+      "type": "string",
+      "default": "UbuntuServer",
+      "regex": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "TestVM_sku",
+      "label": "Test Vm Sku",
+      "description": "null",
+      "type": "string",
+      "default": "16.04-LTS",
+      "regex": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "TestVM_version",
+      "label": "Test Vm Version",
+      "description": "null",
+      "type": "string",
+      "default": "latest",
+      "regex": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "TestVM_os_disk_name",
+      "label": "Test Vm Os Disk Name",
+      "description": "Specifies the disk name.",
+      "type": "string",
+      "default": "TestVM_osdiskname",
+      "regex": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "TestVM_os_disk_caching",
+      "label": "Test Vm Os Disk Caching",
+      "description": "The type of caching which should be used for the internal OS disk. Possible values are None, ReadOnly and ReadWrite.",
+      "type": "string",
+      "default": "ReadWrite",
+      "regex": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "TestVM_os_disk_storage_account_type",
+      "label": "Test Vm Os Disk Storage Account Type",
+      "description": "The type of storage account which should back this the internal OS disk. Possible values are Standard_LRS, StandardSSD_LRS and Premium_LRS.",
+      "type": "string",
+      "default": "Standard_LRS",
+      "regex": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "regex": "",
+      "group_name": "azurerm_resource_group_resource_group",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    }
+  ],
+  "template_output_params": [ ]
+}
